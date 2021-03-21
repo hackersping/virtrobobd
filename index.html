@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RUBY - A Virtual Robot</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
+    <link rel="stylesheet" href="switch/dist/css/style.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link href="img filess\Screenshot__73_-removebg-preview" rel="icon" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+                               
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+	                        <h1 class="hero-title" style="font-family:Hind Siliguri;">রুবি - একটি ভার্চুয়াল রোবট</h1>
+	                        <p class="hero-paragraph">রুবি বর্তমানে প্রাথমিকভাবে শুধুমাত্র অ্যান্ড্রয়েড ডিভাইসের জন্য সহজলভ্য। রুবি হলো একটি বাংলাদেশী ভার্চুয়াল রোবট যা ব্যবহারকারীর সাথে বাংলায় কথা বলতে পারে। পাশাপাশি এটি ব্যবহারকারীর সাথে লিখিত বার্তা আদানপ্রদানেও সক্ষম।</p>
+	                        <div class="hero-cta">
+								<a class="button button-primary" href="home.html">চলো, শুরু করি</a>
+								<div class="lights-toggle">
+									<input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked">
+									<label for="lights-toggle" class="text-xs"><span><span class="label-text"></span></span></label>
+								</div>
+							</div>
+						</div>
+						<div class="hero-media">
+							<div class="header-illustration">
+								<img class="header-illustration-image asset-light" src="switch/dist/images/header-illustration-light.svg" alt="Header illustration">
+								<img class="header-illustration-image asset-dark" src="switch/dist/images/header-illustration-dark.svg" alt="Header illustration">
+							</div>
+							<div class="hero-media-illustration">
+								<img class="hero-media-illustration-image asset-light" src="switch/dist/images/hero-media-illustration-light.svg" alt="Hero media illustration">
+								<img class="hero-media-illustration-image asset-dark" src="switch/dist/images/hero-media-illustration-dark.svg" alt="Hero media illustration">
+							</div>
+							<div class="hero-media-container">
+								<img class="hero-media-image asset-light" src="switch/dist/images/Ruby Hero Image.svg" alt="Hero media">
+								<img class="hero-media-image asset-dark" src="switch/dist/images/Ruby Hero Image.svg" alt="Hero media">
+							</div>
+						</div>
+                    </div>
+                </div>
+            </section>
+
+         
+
+			<section class="cta section">
+                <div class="container-sm">
+                    <div class="cta-inner section-inner">
+                        <div class="cta-header text-center">
+                            <h2 class="section-title mt-0" style="font-family: Hind Siliguri;">রুবি তে অবদান রাখুন</h2>
+                            <p class="section-paragraph">রুবির জ্ঞান বৃদ্ধিতে অংশ নিতে পারেন আপনিও। মেন্যু থেকে <b>"কন্ট্রিবিউট"</b> অপশনে ক্লিক করে সঠিক তথ্য দিয়ে আমাদের সাহায্য করুন</p>
+							<div class="cta-cta">
+								<a class="button button-primary" href="home.html">এখানে ক্লিক করুন</a>
+							</div>
+					    </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        
+    </div>
+
+    <script src="switch/dist/js/main.min.js"></script>
+    <script src="js/disableviewsrc.js"></script>
+
+    <script>
+        if (localStorage.getItem("vbisited")) {
+          window.location.href = "home.html";
+      }
+      localStorage.setItem("visited", "true");
+      </script>
+      
+      <script>
+        var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+        if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+        function mischandler(){
+        return false;
+        }
+        function mousehandler(e){
+        var myevent = (isNS) ? e : event;
+        var eventbutton = (isNS) ? myevent.which : myevent.button;
+        if((eventbutton==2)||(eventbutton==3)) return false;
+        }
+        document.oncontextmenu = mischandler;
+        document.onmousedown = mousehandler;
+        document.onmouseup = mousehandler;
+        </script>
+      
+      <noscript><h3> You must have JavaScript enabled in order to use this order form. Please 
+        enable JavaScript and then reload this page in order to continue. </h3> 
+        <meta HTTP-EQUIV="refresh" content=0;url="javascriptnotenabled.html"></noscript>
+</body>
+</html>
+
+   
+
+
+
+
+
+
+ 
+ 

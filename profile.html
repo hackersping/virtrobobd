@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Ruby's Profile</title>
+ <link href="img filess\rubyicon.png" rel="icon" type="image/x-icon" />
+ <link href='https://fonts.maateen.me/solaiman-lipi/font.css' rel='stylesheet'/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/profile.css">
+</head>
+<body>
+<main>
+<nav>
+    <a href="#" onclick="goBack()"><i class="fa fa-arrow-left" ></i></a>
+ <a href="chatbotv1.html"></a>
+ <a href="#" >Ruby's Profile</a>
+ <a tabindex="2"><i class="fa fa-gratipay" ></i></a>
+</nav>
+<div class="profile" >
+  <div class="profile-img">
+    <img src="img filess\Screenshot.png">
+    
+  </div>
+  <div class="overlay" ></div>
+  <h1>Ruby <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Twitter_Verified_Badge.svg" width="15px" alt="" class="ver"></h1>
+  <h3>  রুবি হলো একটি ভার্চুয়াল রোবট। এটি বর্তমানে প্রাথমিকভাবে মোবাইল এবং ডেস্কটপের জন্য সহজলভ্য। রুবি হলো প্রথম বাংলাদেশী ভার্চুয়াল রোবট যা বাংলায় কথা বলতে পারে। পাশাপাশি এটি ব্যবহারকারীর সাথে লিখিত বার্তা আদানপ্রদানেও সক্ষম। </h3>
+
+</div>
+<div class="follower">
+  <div>
+  <h1>1K+</h1>
+  <p>Users</p>
+  </div>
+  <div>
+  <h1>02</h1>
+  <p>Contributors</p>
+  </div>
+  <div>
+   <h1>01</h1>
+   <p>Version</p>
+  </div>
+</div>
+<div class="btn-group" >
+ <a href="author.html" class="btn1" >Creator</a>
+ <a href="contact.html" class="btn2" >Contact</a>
+</div>
+<div class="about" >
+ 
+</div>
+
+</main>
+
+<script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
+
+<script>
+  var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+  if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+  function mischandler(){
+  return false;
+  }
+  function mousehandler(e){
+  var myevent = (isNS) ? e : event;
+  var eventbutton = (isNS) ? myevent.which : myevent.button;
+  if((eventbutton==2)||(eventbutton==3)) return false;
+  }
+  document.oncontextmenu = mischandler;
+  document.onmousedown = mousehandler;
+  document.onmouseup = mousehandler;
+  </script>
+
+<noscript><h3> You must have JavaScript enabled in order to use this order form. Please 
+  enable JavaScript and then reload this page in order to continue. </h3> 
+  <meta HTTP-EQUIV="refresh" content=0;url="javascriptnotenabled.html"></noscript>
+</body>
+</html>
